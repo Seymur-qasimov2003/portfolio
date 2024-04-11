@@ -5,9 +5,11 @@ import '../../../../res/constants.dart';
 class AnimatedLinearProgressIndicator extends StatelessWidget {
   const AnimatedLinearProgressIndicator(
       {super.key, required this.percentage, required this.title, this.image});
+
   final double percentage;
   final String title;
   final String? image;
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -64,68 +66,127 @@ class MySKills extends StatelessWidget {
         AnimatedLinearProgressIndicator(
           percentage: 0.7,
           title: 'Flutter',
-          image: 'assets/icons/flutter.png',
+          image: 'assets/images/image.png',
         ),
         AnimatedLinearProgressIndicator(
-            percentage: 0.9, title: 'Dart', image: 'assets/icons/dart.png'),
+          percentage: 0.8,
+          title: 'Dart',
+          image: 'assets/images/image.png',
+        ),
         AnimatedLinearProgressIndicator(
-            percentage: 0.6,
+            percentage: 0.7,
             title: 'Firebase',
-            image: 'assets/icons/firebase.png'),
+            image: 'assets/images/image.png'),
         AnimatedLinearProgressIndicator(
-            percentage: 0.9,
+            percentage: 0.8,
             title: 'GetStorage',
-            image: 'assets/icons/dart.png'),
+            image: 'assets/images/image.png'),
         AnimatedLinearProgressIndicator(
-            percentage: 0.6, title: 'Sqlite', image: 'assets/icons/dart.png'),
+          percentage: 0.6,
+          title: 'Sqlite',
+          image: 'assets/images/image.png',
+        ),
         AnimatedLinearProgressIndicator(
-            percentage: 0.6,
-            title: 'Shared Prefrences',
-            image: 'assets/icons/dart.png'),
+          percentage: 0.5,
+          title: 'Shared Prefrences',
+          image: 'assets/images/image.png',
+        ),
         AnimatedLinearProgressIndicator(
             percentage: 0.8,
             title: 'Responsive Design',
-            image: 'assets/icons/flutter.png'),
+            image: 'assets/images/image.png'),
         AnimatedLinearProgressIndicator(
-            percentage: 0.8,
-            title: 'Clean Architecture',
-            image: 'assets/icons/flutter.png'),
+          percentage: 0.8,
+          title: 'Clean Architecture',
+          image: 'assets/images/image.png',
+        ),
         AnimatedLinearProgressIndicator(
-            percentage: 0.9, title: 'Riverpod', image: 'assets/icons/dart.png'),
+          percentage: 0.8,
+          title: 'Riverpod',
+          image: 'assets/images/image.png',
+        ),
+
         AnimatedLinearProgressIndicator(
-            percentage: 0.5, title: 'Bloc', image: 'assets/icons/bloc.png'),
+          percentage: 0.5,
+          title: 'Provider',
+          image: 'assets/images/image.png',
+        ),
         AnimatedLinearProgressIndicator(
-            percentage: 0.5, title: 'Getx', image: 'assets/icons/dart.png'),
+          percentage: 0.6,
+          title: 'Go Router',
+          image: 'assets/images/image.png',
+        ),
         AnimatedLinearProgressIndicator(
-            percentage: 0.5, title: 'Provider', image: 'assets/icons/dart.png'),
+          percentage: 0.8,
+          title: 'Rest Api',
+          image: 'assets/images/image.png',
+        ),
         AnimatedLinearProgressIndicator(
-            percentage: 0.6,
-            title: 'Go Router',
-            image: 'assets/icons/dart.png'),
+          percentage: 0.5,
+          title: 'Linux',
+          image: 'assets/images/image.png',
+        ),
         AnimatedLinearProgressIndicator(
-            percentage: 0.5, title: 'Rest Api', image: 'assets/icons/dart.png'),
+          percentage: 0.5,
+          title: 'C#',
+          image: 'assets/images/image.png',
+        ),
         AnimatedLinearProgressIndicator(
-            percentage: 0.5, title: 'Linux', image: 'assets/icons/dart.png'),
+          percentage: 0.5,
+          title: 'Js',
+          image: 'assets/images/image.png',
+        ),
         AnimatedLinearProgressIndicator(
-            percentage: 0.5, title: 'C#', image: 'assets/icons/dart.png'),
+          percentage: 0.5,
+          title: 'Css',
+          image: 'assets/images/image.png',
+        ),
         AnimatedLinearProgressIndicator(
-            percentage: 0.5, title: 'Js', image: 'assets/icons/dart.png'),
+          percentage: 0.5,
+          title: 'Html',
+          image: 'assets/images/image.png',
+        ),
         AnimatedLinearProgressIndicator(
-            percentage: 0.5, title: 'Css', image: 'assets/icons/dart.png'),
+          percentage: 0.7,
+          title: 'Git',
+          image: 'assets/images/image.png',
+        ),
         AnimatedLinearProgressIndicator(
-            percentage: 0.5, title: 'Html', image: 'assets/icons/dart.png'),
+          percentage: 0.7,
+          title: 'Github',
+          image: 'assets/images/image.png',
+        ),
         AnimatedLinearProgressIndicator(
-            percentage: 0.5, title: 'Git', image: 'assets/icons/dart.png'),
+          percentage: 0.5,
+          title: 'Cyber Security',
+          image: 'assets/images/image.png',
+        ),
         AnimatedLinearProgressIndicator(
-            percentage: 0.5, title: 'Github', image: 'assets/icons/dart.png'),
+          percentage: 0.6,
+          title: 'AzureDevops',
+          image: 'assets/images/image.png',
+        ),
+
+        ///Unit testing, Integration testing, Widget testing
         AnimatedLinearProgressIndicator(
-            percentage: 0.5,
-            title: 'Cyber Security',
-            image: 'assets/icons/dart.png'),
+          percentage: 0.5,
+          title: 'Unit ,Integration,Widget testing',
+          image: 'assets/images/image.png',
+        ),
+
+        ///kotlin
         AnimatedLinearProgressIndicator(
-            percentage: 0.6,
-            title: 'AzureDevops',
-            image: 'assets/icons/dart.png'),
+          percentage: 0.4,
+          title: 'Kotlin',
+          image: 'assets/images/image.png',
+        ),
+
+        ///c++
+        AnimatedLinearProgressIndicator(
+          percentage: 0.4,
+          title: 'C++',
+          image: 'assets/images/image.png',
+        ),
       ],
     );
   }

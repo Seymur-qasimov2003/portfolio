@@ -11,10 +11,33 @@ class ProjectController  extends GetxController{
     false,
     false,
     false,
+    false,
+    false,
+    false,
+    false,
   ].obs;
 
 
   onHover(int index,bool value){
     hovers[index]=value;
   }
+  RxList<bool> hoverProduct=[
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+
+  ].obs;
+
+  onHoverPruduct(int index,bool value){
+    hoverProduct[index]=value;
+  }
+
+
 }

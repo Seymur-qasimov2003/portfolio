@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolioweb/view/productsview/product_view.dart';
 
 import '../certifications/certifications.dart';
 import '../intro/introduction.dart';
@@ -12,9 +13,10 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MainView(
       pages: [
-        const Introduction(),
+         Introduction(),
         ProjectsView(),
         Certifications(),
+        ProductsView(),
       ],
     );
   }
