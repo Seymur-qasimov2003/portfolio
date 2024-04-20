@@ -6,12 +6,15 @@ import '../../../res/constants.dart';
 
 class DownloadButton extends StatelessWidget {
   const DownloadButton({super.key});
+
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        launchUrl(Uri.parse(
-            'https://drive.google.com/file/d/1nS0TxgQzruSCQjGY4bCNsP4d1aPQa1rz/view?usp=sharing'));
+        launchUrl(
+          Uri.parse(
+              'https://drive.google.com/file/d/1UOWFnb3PQIFrzV6nHLWQaQ2Fcw3pHEVp/view?usp=drive_link'),
+        );
       },
       child: Container(
         alignment: Alignment.center,
@@ -24,12 +27,13 @@ class DownloadButton extends StatelessWidget {
             BoxShadow(color: Colors.red, offset: Offset(0, 1), blurRadius: 5),
           ],
           gradient: LinearGradient(
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-              colors: [
-                Colors.pink,
-                Colors.blue.shade900,
-              ]),
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              Colors.pink,
+              Colors.blue.shade900,
+            ],
+          ),
         ),
         child: Row(
           children: [

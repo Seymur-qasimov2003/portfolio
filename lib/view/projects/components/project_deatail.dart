@@ -75,7 +75,7 @@ class ProductDetail extends StatelessWidget {
             style: Theme.of(context)
                 .textTheme
                 .headlineSmall!
-                .copyWith(color: Colors.white, fontWeight: FontWeight.bold),
+                .copyWith(color: Colors.white, fontWeight: FontWeight.bold,),
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
           ),
