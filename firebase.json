@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "site": "seymurportfolio",
+
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
