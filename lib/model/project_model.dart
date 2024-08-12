@@ -92,67 +92,101 @@ List<Project> projectList = [
 List<Project> productsList = [
   ///iworany ios tarafi icin
   Project(
-      'Iworkany',
+      'Iworkany(ios)',
       'Iworkany is Ios.Iworany is a simple application that shows the life cycle of a flutter application. It is a very useful application for beginners to understand the life cycle of a flutter application.',
       'assets/images/food.png',
       'dhdhjfjdjhjhddjd'),
 
   ///iworany android tarafi icin
   Project(
-      'Iworkany',
+      'Iworkany(android)',
       'Iworkany is android.Iworany is a simple application that shows the life cycle of a flutter application. It is a very useful application for beginners to understand the life cycle of a flutter application.',
       'assets/images/food.png',
       'jnnjnfndjfndnjfjfjnj'),
 
   ///Iworany mac tarafi icin
   Project(
-      'Iworkany',
+      'Iworkany(desktop)',
       'Iworkany is mac.Iworany is a simple application that shows the life cycle of a flutter application. It is a very useful application for beginners to understand the life cycle of a flutter application.',
       'assets/images/food.png',
       'jnnjnfndjfndnjfjfjnj'),
 
   ///Cowmon ios tarafi icin
   Project(
-      'Cowmon',
+      'Cowmon(ios)',
       'Cowmon is Ios.Cowmon is a simple application that shows the life cycle of a flutter application. It is a very useful application for beginners to understand the life cycle of a flutter application.',
       'assets/images/food.png',
       'jnnjnfndjfndnjfjfjnj'),
 
   ///Cowmon android tarafi icin
   Project(
-      'Cowmon',
+      'Cowmon(android)',
       'Cowmon is android.Cowmon is a simple application that shows the life cycle of a flutter application. It is a very useful application for beginners to understand the life cycle of a flutter application.',
       'assets/images/food.png',
       'jnnjnfndjfndnjfjfjnj'),
 
   ///notify ios tarafi icin
   Project(
-      'notify',
-      'notify is Ios.Notify is a simple application that shows the life cycle of a flutter application. It is a very useful application for beginners to understand the life cycle of a flutter application.',
+      'notify(android)',
+      'notify is android.Notify is a simple application that shows the life cycle of a flutter application. It is a very useful application for beginners to understand the life cycle of a flutter application.',
       'assets/images/food.png',
       'jnnjnfndjfndnjfjfjnj'),
 
   ///notify android tarafi icin
-  Project(
-      'notify',
-      'notify is android.Notify is a simple application that shows the life cycle of a flutter application. It is a very useful application for beginners to understand the life cycle of a flutter application.',
-      'assets/images/food.png',
-      'jnnjnfndjfndnjfjfjnj'),
+
 
   ///Mobil Icbari ios tarafi icin
 
 
   ///Mobil Icbari android tarafi icin
   Project(
-      'Mobil Icbari',
+      'Mobil Icbari(android)',
       'Mobil Icbari is android.Mobil Icbari is a simple application that shows the life cycle of a flutter application. It is a very useful application for beginners to understand the life cycle of a flutter application.',
       'assets/images/food.png',
       'jnnjnfndjfndnjfjfjnj'),
 
   ///bionbi ios tarafi icin
   Project(
-      'Bionbi',
+      'Bionbi(android)',
       'It is apk for android.Bionbi is a simple application that shows the life cycle of a flutter application. It is a very useful application for beginners to understand the life cycle of a flutter application.',
       'assets/images/food.png',
       'jnnjnfndjfndnjfjfjnj'),
+  ///turkiye bazari ucun voltla android ios
+  Project(
+      'Voltla(android)',
+      'Voltla is android.Voltla is a simple application that shows the life cycle of a flutter application. It is a very useful application for beginners to understand the life cycle of a flutter application.',
+      'assets/images/food.png',
+      'jnnjnfndjfndnjfjfjnj'),
+  ///ios
+  Project(
+      'Voltla(ios)',
+      'Voltla is ios.Voltla is a simple application that shows the life cycle of a flutter application. It is a very useful application for beginners to understand the life cycle of a flutter application.',
+      'assets/images/food.png',
+      'jnnjnfndjfndnjfjfjnj'),
+  ///B2B
+  Project(
+      'B2B(android)',
+      'B2B is android.B2B is a simple application that shows the life cycle of a flutter application. It is a very useful application for beginners to understand the life cycle of a flutter application.',
+      'assets/images/food.png',
+      'jnnjnfndjfndnjfjfjnj'),
+  ///ios
+  Project(
+      'B2B(ios)',
+      'B2B is ios.B2B is a simple application that shows the life cycle of a flutter application. It is a very useful application for beginners to understand the life cycle of a flutter application.',
+      'assets/images/food.png',
+      'jnnjnfndjfndnjfjfjnj'),
+  ///getcaller android xarici bazar ucun
+  Project(
+      'Getcaller(android)',
+      'Getcaller is android.Getcaller is a simple application that shows the life cycle of a flutter application. It is a very useful application for beginners to understand the life cycle of a flutter application.',
+      'assets/images/food.png',
+      'jnnjnfndjfndnjfjfjnj'),
+  ///ios
+  Project(
+      'Getcaller(ios)',
+      'Getcaller is ios.Getcaller is a simple application that shows the life cycle of a flutter application. It is a very useful application for beginners to understand the life cycle of a flutter application.',
+      'assets/images/food.png',
+      'jnnjnfndjfndnjfjfjnj'),
+
+
 ];

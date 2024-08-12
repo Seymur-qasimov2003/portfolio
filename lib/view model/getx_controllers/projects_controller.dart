@@ -32,6 +32,11 @@ class ProjectController  extends GetxController{
     false,
     false,
     false,
+    false,
+    false,
+    false,
+    false,
+    false,
 
   ].obs;
 
